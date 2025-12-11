@@ -6,23 +6,23 @@ load_dotenv()
 
 # Bot Configuration
 AMANBOTZ_BOT_TOKEN = os.environ.get("AMANBOTZ_BOT_TOKEN", "")
-AMANBOTZ_API_ID = int(os.environ.get("AMANBOTZ_API_ID", "0"))
-AMANBOTZ_API_HASH = os.environ.get("AMANBOTZ_API_HASH", "")
+AMANBOTZ_API_ID = int(os.environ.get("AMANBOTZ_API_ID", "29563132"))
+AMANBOTZ_API_HASH = os.environ.get("AMANBOTZ_API_HASH", "b39be032fc0c567d0cda60dbea99606e")
 
 # MongoDB Configuration
-AMANBOTZ_MONGODB_URI = os.environ.get("AMANBOTZ_MONGODB_URI", "")
+AMANBOTZ_MONGODB_URI = os.environ.get("AMANBOTZ_MONGODB_URI", "mongodb+srv://workwithsaikat:saikat9735@cluster0.0e5vp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 AMANBOTZ_DB_NAME = os.environ.get("AMANBOTZ_DB_NAME", "amanbotz_poster_bot")
 
 # API Keys (Optional - at least one required)
-AMANBOTZ_TMDB_API = os.environ.get("AMANBOTZ_TMDB_API", "")
+AMANBOTZ_TMDB_API = os.environ.get("AMANBOTZ_TMDB_API", "42f8435aa9e2c20c9785f8402c9e5e20")
 AMANBOTZ_OMDB_API = os.environ.get("AMANBOTZ_OMDB_API", "")
 
 # Owner Configuration
-AMANBOTZ_OWNER_ID = int(os.environ.get("AMANBOTZ_OWNER_ID", "0"))
-AMANBOTZ_LOG_CHANNEL = int(os.environ.get("AMANBOTZ_LOG_CHANNEL", "0"))
+AMANBOTZ_OWNER_ID = int(os.environ.get("AMANBOTZ_OWNER_ID", "6400371201"))
+AMANBOTZ_LOG_CHANNEL = int(os.environ.get("AMANBOTZ_LOG_CHANNEL", "-1002721998250"))
 
 # Auto Post Channel (can be changed via bot)
-AMANBOTZ_AUTO_POST_CHANNEL = int(os.environ.get("AMANBOTZ_AUTO_POST_CHANNEL", "0"))
+AMANBOTZ_AUTO_POST_CHANNEL = int(os.environ.get("AMANBOTZ_AUTO_POST_CHANNEL", "-1002338525724"))
 
 # Check if at least one API is configured
 def check_api_config():
@@ -43,7 +43,8 @@ def get_available_api():
 
 # Bot Info
 AMANBOTZ_BOT_NAME = os.environ.get("AMANBOTZ_BOT_NAME", "Poster Bot")
-AMANBOTZ_BOT_USERNAME = os.environ.get("AMANBOTZ_BOT_USERNAME", "")
+AMANBOTZ_BOT_USERNAME = os.environ.get("AMANBOTZ_BOT_USERNAME", "Creazy_Poster_Bot")
 
 # Scheduler Interval (in hours)
 AMANBOTZ_CHECK_INTERVAL = int(os.environ.get("AMANBOTZ_CHECK_INTERVAL", "6"))
+
