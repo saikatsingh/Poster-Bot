@@ -22,7 +22,7 @@ AMANBOTZ_OWNER_ID = int(os.environ.get("AMANBOTZ_OWNER_ID", "6400371201"))
 AMANBOTZ_LOG_CHANNEL = int(os.environ.get("AMANBOTZ_LOG_CHANNEL", "-1002721998250"))
 
 # Auto Post Channel (can be changed via bot)
-AMANBOTZ_AUTO_POST_CHANNEL = int(os.environ.get("AMANBOTZ_AUTO_POST_CHANNEL", "-1002338525724"))
+AMANBOTZ_AUTO_POST_CHANNEL = int(os.environ.get("AMANBOTZ_AUTO_POST_CHANNEL", "-1003294644143"))
 
 # Check if at least one API is configured
 def check_api_config():
@@ -47,4 +47,5 @@ AMANBOTZ_BOT_USERNAME = os.environ.get("AMANBOTZ_BOT_USERNAME", "Creazy_Poster_B
 
 # Scheduler Interval (in hours)
 AMANBOTZ_CHECK_INTERVAL = int(os.environ.get("AMANBOTZ_CHECK_INTERVAL", "6"))
+
 
