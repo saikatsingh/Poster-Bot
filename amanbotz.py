@@ -146,9 +146,10 @@ async def main():
 
 if __name__ == "__main__":
     try:
-asyncio.run(main())
+    asyncio.run(main())
     except KeyboardInterrupt:
         logger.info("Bot stopped by user")
     except Exception as e:
         logger.error(f"Bot stopped due to error: {e}")
+
 
